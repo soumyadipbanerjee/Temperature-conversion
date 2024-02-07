@@ -1,0 +1,60 @@
+/* Reset default margin and padding, set global font styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Style the main container */
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(140, 219, 140), rgb(20, 141, 20));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the main heading */
+  .container h1 {
+    color: brown;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  /* Style the converter row */
+  .converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: cornsilk;
+    border-radius: 10px;
+    padding: 50px 20px;
+  }
+  
+  /* Style the columns */
+  .col {
+    flex-basis: 32%;
+    text-align: center;
+  }
+  
+  /* Style the labels */
+  .col label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  /* Style the input fields */
+  .col input {
+    width: 150px;
+    height: 30px;
+    background: seashell;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
